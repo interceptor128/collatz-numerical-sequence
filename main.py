@@ -8,9 +8,9 @@ def collatz(number):
     else:
         return int(number * 3 + 1)
 
+
 number = int(input())
 print(number)
 while number != 1:
     number = collatz(number)
     print(number)
- 
